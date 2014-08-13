@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="UI Tests(failed)">
+    <classes>
+      <class name="com.kirwa.webdriver.test.TST_Comman">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="StartTestCase"/>
+          <include name="EndTestCase"/>
+          <include name="beforeSuite"/>
+          <include name="beforetest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.ideas.webdriver.test.TST_Comman -->
+      <class name="com.kirwa.webdriver.test.TST_AtaGlance">
+        <methods>
+          <include name="beforetest"/>
+          <include name="Verify_AtGlance_Header"/>
+          <include name="StartTestCase"/>
+        </methods>
+      </class> <!-- com.ideas.webdriver.test.TST_AtaGlance -->
+    </classes>
+  </test> <!-- UI Tests(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

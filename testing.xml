@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestAll" junit="false">
+ 
+	<test name="UI Tests">
+		<classes>
+			<class name="com.kirwa.webdriver.test.TST_Comman">
+			
+			</class>
+		</classes>
+	</test>
+</suite>
